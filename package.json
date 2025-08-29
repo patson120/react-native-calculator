@@ -89,6 +89,7 @@
   "workspaces": [
     "example"
   ],
+  "private": true,
   "packageManager": "yarn@3.6.1",
   "jest": {
     "preset": "react-native",
@@ -108,7 +109,7 @@
       "tagName": "v${version}"
     },
     "npm": {
-      "publish": true
+      "publish": false
     },
     "github": {
       "release": true
